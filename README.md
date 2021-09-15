@@ -12,7 +12,7 @@ mysql-ctl cli;
 CREATE USER 'peter'@'%' IDENTIFIED BY 'abcd1234#';
 GRANT ALL PRIVILEGES ON *.* TO 'peter'@'%';
 
-SELECT * FROM mysql.user;
+SELECT user, authentication_string FROM mysql.user;
 quit;
 
 ## In Console:
