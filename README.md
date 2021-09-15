@@ -20,3 +20,4 @@ mysql-ctl restart
 
 # Befehle zum Betrieb
 mysql-ctl Start
+
