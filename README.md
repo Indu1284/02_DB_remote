@@ -1,26 +1,26 @@
 # Befehle zum Einrichten
 
 ## In Console:
-apt install nano
+`apt install nano`
 
-nano /etc/mysql/mysql.conf.d/mysqld.cnf
+`nano /etc/mysql/mysql.conf.d/mysqld.cnf`
 
-Strg+X / Y / Enter
+`Strg+X / Y / Enter`
 
-mysql-ctl cli;
+`mysql-ctl cli;`
 
 ## In CLI:
-CREATE USER 'peter'@'%' IDENTIFIED BY 'abcd1234#';
+`CREATE USER 'peter'@'%' IDENTIFIED BY 'abcd1234#';`
 
-GRANT ALL PRIVILEGES ON *.* TO 'peter'@'%';
+`GRANT ALL PRIVILEGES ON *.* TO 'peter'@'%';`
 
-SELECT user, authentication_string FROM mysql.user;
+`SELECT user, authentication_string FROM mysql.user;`
 
-quit;
+`quit;`
 
 ## In Console:
-mysql-ctl restart 
+`mysql-ctl restart` 
 
 # Befehle zum Betrieb
-mysql-ctl Start
+`mysql-ctl start`
 
