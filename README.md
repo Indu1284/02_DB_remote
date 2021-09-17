@@ -2,6 +2,7 @@
 
 ## In Console:
 apt install nano
+
 nano /etc/mysql/mysql.conf.d/mysqld.cnf
 
 Strg+X / Y / Enter
